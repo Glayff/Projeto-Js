@@ -12,6 +12,16 @@ const C = varA
 console.log(A,B,C);*/
 
 //resolução do professor
+ /*
+
+ const varAtemp = varA;
+varA = varB
+varB = varC
+varC = varA
+
+ */
+
+//Resolução nova do professor
 
 [varA,varB,varC] = [varB,varC,varA];
 

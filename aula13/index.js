@@ -45,7 +45,7 @@ let outraString = 'O rato roeu a roupa do rei de roma'
 // console.log(outraString.slice(-5));
 // // console.log(outraString.length - 3);
 
-console.log(outraString.split("r"));
+// console.log(outraString.split("r"));
 
-// console.log(outraString.toLocaleUpperCase())
-// console.log(outraString.toLocaleLowerCase())
+console.log(outraString.toLocaleUpperCase());
+console.log(outraString.toLocaleLowerCase());

@@ -1,3 +1,4 @@
+//minha resolução
 
         const nome = prompt('Digite Seu Nome Completo:');
         let quantidade = (nome.length);

@@ -1,3 +1,6 @@
+//minha resolução 
+
+
 const numero = prompt('Digite um Numero: ');
 const raizquadrada = numero ** 0.5
 let num1 = Number(numero);

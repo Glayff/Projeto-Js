@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicios Aula 13</title>
-</head>
-<body>
-    <!-- <script src= "script.js" ></script> -->
-    <script>
+
         const nome = prompt('Digite Seu Nome Completo:');
         let quantidade = (nome.length);
         let letras = nome.split('');
@@ -39,6 +30,3 @@
         document.body.innerHTML += `As palavras do seu nome são: ${palavras.join(',')}<br />`;
         document.body.innerHTML += `Seu nome com letras maiúsculas: ${nomeMaisculo} <br />`;
         document.body.innerHTML += `Seu nome com letras minúsculas: ${nomeMinusculo} <br />`;
-        </script>
-</body>
-</html>

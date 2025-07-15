@@ -21,7 +21,7 @@ function criaPessoa (nome,sobrenome,idade) {
 }
 const pessoa1 = criaPessoa('Glayff', 'Junior', 26);
 const pessoa2 = criaPessoa('Leticia', 'Valares', 24);
-const pessoa3 = criaPessoa('Melinda', 'Valares Gonçalves', 1);
+const pessoa3 = criaPessoa('Melinda', 'Valares', 1);
 const pessoa4 = criaPessoa('Monkey', 'dLuffy', 26);
 
 console.log(pessoa1.nome);

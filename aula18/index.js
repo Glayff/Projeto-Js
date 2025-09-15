@@ -1,27 +1,50 @@
-const raiz = n => n ** 0.5;
-
-// const raiz = function(n) {
-//     return n ** 0.5;
+// const pessoa1 = {
+//     nome : 'Glayff',
+//     sobrenome : 'Junior',
+//     idade: 26
 // };
 
-console.log(raiz(9));
-console.log(raiz(16));
-console.log(raiz(25));
+// console.log(pessoa1.nome);
 
-// function soma(x, y) {
-//   const resultado = x + y;
-//   return resultado;
+// function criaPessoa (nome, sobrenome, idade) {
+//      return {
+//         nome: nome,
+//         sobrenome: sobrenome,
+//         idade: idade
+//      }
 // }
-// console.log(soma(2, 2));
-// console.log(soma(3, 2));
-// console.log(soma(10, 2));
-// console.log(soma(2, 6));
-// function saudacao(nome) {
-//     // console.log(`Bom dia ${nome}`);
-//     return (`Bom dia ${nome}`)
-// }
-// const variavel = saudacao('Glayff');
-// console.log(variavel);
-// saudacao('Glayff');
-// saudacao('Letícia');
-// saudacao('Melinda');
+
+// const pessoa1 = criaPessoa('Glayff', 'Junior', 26);
+// console.log(pessoa1)
+
+
+// function criaPessoa (nome, sobrenome, idade) {
+//      return {nome,sobrenome,idade}
+//        }
+// const pessoa1 = criaPessoa('Glayff', 'Junior', 26);
+// const pessoa2 = criaPessoa('Leticia', 'Valares', 26);
+// const pessoa3 = criaPessoa('Eleonora', 'Valares', 4);
+// const pessoa4 = criaPessoa('Valentim', 'Gonçalves', 2);
+// const pessoa5 = criaPessoa('Aqueleque', 'permanece', '??');
+// console.log(pessoa1,pessoa2,pessoa3,pessoa4,pessoa5);
+
+
+const pessoa1 = {
+    nome:'Glayff',
+    sobrenome: 'Junior',
+    idade: 26,
+
+    
+    fala() {
+        console.log(`${this.nome} ${this.sobrenome} está falando oi...`)
+      },
+
+};
+
+pessoa1.fala();
+
+//incrementaIdade() {
+// this.idade++;
+// pessoa1.fala();
+// pessoa1.incrementaIdade();
+// };
